@@ -1,0 +1,368 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family:"Roboto Condensed",sans-serif;
+}
+.color-bleu{
+    color: #63D1E9; 
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+nav{
+    padding: 20px 0;
+    padding-bottom: 140px;
+}
+.logo {
+    display: inline;
+  
+}
+.logo a{
+    font-size: 24px;
+    color: #63D1E9; 
+    text-decoration: none;  
+}
+
+div.header{
+    background-image: url(/images/hero.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+ul{
+    display: inline-block;
+    float: right
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.header-text{
+    margin: 20px 70px ;
+}
+h3{
+    color: #63D1E9; 
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.soulign{
+    width: 315px;
+    background-color: rgb(98, 98, 98);
+    padding: 3px ;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+.best{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 60px;
+}
+button{
+    border-radius: 50px;
+    padding: 15px 40px;
+    font-weight: 600;
+}
+.button1{
+    background-color: aliceblue;
+    border-radius: 50px;
+    border-style: none;
+    padding: 15px 30px;
+    margin-right: 20px;
+}
+
+.button2{
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+
+.button1:hover{
+    background-color: transparent;
+    border: 2px solid;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+
+.button2:hover{
+    background-color: aliceblue;
+    border-style: none;  
+    margin-right: 20px;
+    color:black ;
+}
+
+/* ********************************        ABOUT            ***************************** */
+
+.about{ 
+    padding: 60px 200px;
+}
+.about-img{
+    
+    display: inline;
+    margin-right: 40px;
+    width: 40%;
+    
+}
+.about-img img{
+    
+    border-radius: 10px;
+    
+}
+.about-texte{
+    float: right;
+    width: 58%;
+    margin-top: 10px;
+
+}
+.about-texte h2{
+    color: #63D1E9;
+}
+.souligne{
+    width: 80px;
+    background-color: #DEE2E6;
+    padding: 2px ;
+    margin-bottom: 10px;
+   
+}
+.about-texte h1{
+    color: #1D2A4D;
+    font-size: 42px;
+    margin-bottom: 20px;
+    
+}
+.about-texte p{
+    color: #848E9F;
+    font-size: 14px;
+    margin-bottom: 40px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.div-ico{
+    display: inline-block;
+    background-color: #EFF5F9;
+    width: 24%;
+    border-radius: 50%;
+    padding: 10px 0px;
+}
+.div-ico{
+    text-align: center;
+}
+.div-ico small{
+    font-weight: 600;
+    color: #63D1E9; 
+    font-size: 14px;
+}
+
+/* *****************************        SERVICES        *************************************/
+.services{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.titres{
+    text-align: center;
+}
+.soulig{
+    width: 68px;
+    background-color: #DEE2E6;
+    padding: 2px ;
+    margin: 0 auto;
+}
+.titres h1{
+   font-size: 42px;
+   width: 40%;
+   margin: 30px auto;
+   
+}
+.my-div{
+    display: inline-block;
+    background-color: #EFF5F9;
+    width: 27%;
+    padding: 40px 10px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+}
+.my-div p{
+    color: #848E9F;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+.my-div h4{
+   margin: 15px;
+}
+/* **************************************    RENDEZ-VOUS    ********************** */
+.rendezvous{
+    background-color: #63D1E9;
+    padding: 30px 0;
+    margin: 50px 0;
+
+}
+.rendez{
+    width:70%;
+    margin: 0 auto;
+    display: flex;
+}
+.titles{
+    width: 40%;
+    padding: 30px;
+}
+.titles h4{
+    color: white;
+}
+
+.titles h1{
+    color: #1D2A4D;
+    font-size: 40px;
+    margin: 10px 0;
+}
+.titles p{
+    margin: 10px 0;
+    color: white;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.soulign{
+    width: 113px;
+    background-color: #DEE2E6;
+    padding: 2px ;
+    
+}
+
+.button3{
+    background-color: #1D2A4D;
+    color: white;
+}
+.button4{
+    background-color: transparent;
+    color: #1D2A4D;
+}
+.formulaire{
+    width: 50%;
+    height: 320px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+.formulaire input, select{
+   background-color: #EFF5F9;
+   border: none;
+   border-radius: 5px;
+   width: 230px;
+   margin: 5px;
+   padding: 10px 10px;
+}
+.formulaire select{
+    width: 254px; 
+ }
+.formulaire h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0 40px;
+   
+}
+.formulaire .button5{
+    width: 528px;
+    padding: 15px 0px;
+    border-radius: 5px;
+    background-color: #63D1E9;
+    color: white;
+    border: none;
+    font-size: 14px;
+    margin-top: 20px;
+}
+/* ***********************************     packages    **************************/
+.packages{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.les-titres{
+    text-align: center;
+
+}
+.les-titres h4{
+    color: #63D1E9;
+}
+.les-titres h1{
+    color: #1D2A4D;
+    font-size: 42px;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.souligner{
+    width: 165px;
+    background-color: #DEE2E6;
+    padding: 2px ;
+    margin: 0 auto;
+}
+
+.les-div{
+    width: 25%;
+    display: inline-block;
+    margin: 20px 40px;
+    background-color: #EFF5F9;
+    border-radius: 5px;
+}
+
+.les-div img{
+    width: 100%;
+    opacity: 80%;
+    border: 5px;
+    filter: brightness(50%);
+    height: 100%;
+    border-radius: 5px;
+
+
+}
+.package-titre{
+    position: relative;
+    background: #1D2A4D;
+
+}
+.package-titre h4{
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 100;
+    line-height: 1.7;
+    width: 100%;
+}
+
+
+.les-para{
+    text-align: center;
+    padding: 20px 10px;
+    line-height: 2;
+    color: #848E9F;
+}
+.button6{
+    background-color: #63D1E9;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    margin-top: 20px;
+}
