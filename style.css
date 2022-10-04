@@ -220,7 +220,8 @@ button{
 }
 .titles{
     width: 40%;
-    padding: 30px;
+    padding-right: 50px;
+    padding-top: 50px;   
 }
 .titles h4{
     color: white;
@@ -232,7 +233,7 @@ button{
     margin: 10px 0;
 }
 .titles p{
-    margin: 10px 0;
+    margin: 20px 0;
     color: white;
     text-align: justify;
     line-height: 1.5;
@@ -259,7 +260,7 @@ button{
     background-color: white;
     padding: 20px;
     border-radius: 5px;
-    margin-top: 80px;
+    margin: 80px 0px 30px;
 }
 
 .formulaire input, select{
@@ -365,4 +366,100 @@ button{
     color: white;
     padding: 12px 25px;
     margin-top: 20px;
+}
+
+/* ********************************    OUR DOCTOR    *****************************/
+.doctors{
+    width: 80%;
+    margin: 80px auto; 
+}
+
+.les-titles{
+    text-align: center;
+
+}
+.les-titles h4{
+    color: #63D1E9;
+}
+.les-titles h1{
+    color: #1D2A4D;
+    font-size: 42px;
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.souli{
+    width: 120px;
+    background-color: #DEE2E6;
+    padding: 2px ;
+    margin: 0 auto 20px;
+}
+
+.doctor-profil{
+    width: 46%;
+    height: 280px;
+    background-color: #DEE2E6;
+    display: inline-block;  
+    margin-left: 25px;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.doctor-profil img{
+    width: 40%;
+    height: 280px;   
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4%;
+    border-radius: 5px 0 0 5px;
+}
+.doctor-profil .info{
+    margin-top: 20px;
+    width: 50%;
+    display: inline-block;
+}
+.info{
+    padding-right: 20px;
+}
+.info h4{
+    margin: 10px  0 5px;
+    color: #1D2A4D;
+    font-size: 22px;
+}
+.info .categorie {
+    margin-bottom: 30px;
+    color: #13C5DD;
+    font-size: 13px;
+}
+
+.info .categorie i{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.info p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #848E9F;
+    margin-bottom: 60px;
+
+}
+
+
+.doctor-rss  a{
+  color: white;
+  background-color: #63D1E9;
+  border-radius: 50%;
+  padding: 10px 12px;
+  margin-right: 5px;
+}
+.doctor-rss  a:hover{
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+  }
+
+
+.info  a i{
+    text-align: center;
 }
