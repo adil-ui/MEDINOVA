@@ -512,8 +512,81 @@ button{
 }
 
 
+.title-with{
+    width: 70%;
+    margin: 0 auto;
+}
+.ligne-with{
+    width: 95px;
+}
 
+/* *****************************************************    BLOG    *************************************************************** */
 
+.blog{
+    width: 65%;
+    margin: 100px auto;
+}
+.blog h1{
+    width: 65%;
+}
+.my-blog{
+    width: 30%;
+    background-color: #DEE2E6;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 3%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.my-blog p{
+    margin: 15px 0 30px;
+    color: #848E9F;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.my-blog a{
+    color: #1D2A4D;
+    text-decoration: none;
+    font-size: 20px;
+}
+.my-blog a:hover{
+    color: #3bb4cf;
+}
+
+.img-blog{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    
+}
+.text-blog{
+    padding: 10px 15px;
+}
+.img-user{
+    width: 30px;
+    border-radius: 50%;
+}
+.blog-footer img{
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.nom-complet{
+    display: inline-block;
+    
+}
+.les-vu{
+    display: inline-block;
+    padding-left: 22%;
+}
+.my-blog span{
+    color: #848E9F;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.blog-footer{
+    border-top: 1px solid rgb(204, 204, 204);
+    padding: 10px 15px; 
+
+}
 
 
 
