@@ -32,16 +32,16 @@ div.header{
     height: 100vh;
     background-size: cover;
 }
-ul{
+nav ul{
     display: inline-block;
     float: right
 }
-ul li{
+nav ul li{
     list-style: none;
     display: inline-block;
     padding: 0 20px;
 }
-ul li a{
+nav ul li a{
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -107,7 +107,7 @@ button{
 /* ********************************        ABOUT            ***************************** */
 
 .about{ 
-    padding: 60px 200px;
+    padding: 100px 200px ;
 }
 .about-img{
     
@@ -270,9 +270,15 @@ button{
    width: 230px;
    margin: 5px;
    padding: 10px 10px;
+   outline: none;
 }
 .formulaire select{
-    width: 254px; 
+    width: 250px; 
+    color: gray; 
+
+ }
+ .formulaire select option{
+    color: black;
  }
 .formulaire h2{
     text-align: center;
@@ -588,9 +594,85 @@ button{
 
 }
 
+/* *****************************************************    FOOTER    *************************************************************** */
 
 
+footer{ 
+    background-color: #1D2A4D;
+    padding: 50px 0 30px;
+    width: 100%;
+}
+footer .footer-contrainer{
+    width: 65%;
+    margin: 0 auto;
+}
+footer .footer-div{
+    width: 22%;
+    display: inline-block;
+    margin-right: 3%;
+    vertical-align: top;
+}
+footer .footer-div:last-child{
+        margin-right: 0;
+}
+.footer-div h4{
+    color: #3bb4cf;
+    margin-bottom: 30px;
+}
+.footer-div p{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 13px;
+    line-height: 1.5;
+}
 
+footer ul li{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 14px;
+}
+footer  i{
+    
+    margin-right: 10px;
+    color: #13C5DD;
+}
+footer ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+footer input{
+    width: 90%;
+}
+footer h6{
+    color: #13C5DD;
+    margin: 30px 0 10px;
 
+}
+.footer-rss i{
+    font-size: 25px;
+}
+.footer-div input{
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    display: inline-block;
+}
+.footer-div button{
+    display: inline-block;
+    height: 39px  ;
+    padding: 10px 0;
+    width: 30%;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 13px;
+    vertical-align: top;
+    color: white;
+    background-color: #13C5DD;
+}
 
 
